@@ -1118,7 +1118,7 @@ def func():
 if __name__ == '__main__':
     init(convert=True)
     if len(sys.argv) < 2:
-        ua = open('./ua.txt', 'r').read().split('\n')
+        ua = open('./resources/ua.txt', 'r').read().split('\n')
         clear()
         title()
         while True:
